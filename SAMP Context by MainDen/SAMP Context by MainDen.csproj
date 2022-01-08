@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net5.0</TargetFrameworks>
+    <RootNamespace>MainDen.SAMP.Context</RootNamespace>
+    <AssemblyName>MainDen.SAMP.Context</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <RuntimeIdentifiers>win</RuntimeIdentifiers>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>MainDen.SAMP.Context</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>MainDen</Authors>
+    <Description>https://github.com/MainDen/SAMP-SDK-by-MainDen</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MainDen.Windows.Emulation" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SAMP Memory by MainDen\SAMP Memory by MainDen.csproj" />
+  </ItemGroup>
+
+</Project>
