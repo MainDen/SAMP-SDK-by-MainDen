@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net48;net472</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     <RootNamespace>MainDen.SAMP.Context</RootNamespace>
     <AssemblyName>MainDen.SAMP.Context</AssemblyName>
   </PropertyGroup>
@@ -12,7 +12,7 @@
 
   <PropertyGroup>
     <PackageId>MainDen.SAMP.Context</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>MainDen</Authors>
     <Description>
       This client library enables working with SAMP application.
@@ -21,7 +21,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MainDen.Windows.Emulation" Version="1.0.2" />
+    <PackageReference Include="MainDen.Windows.Emulation" Version="1.0.3" />
+    <PackageReference Include="MainDen.Windows.Interception" Version="1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
